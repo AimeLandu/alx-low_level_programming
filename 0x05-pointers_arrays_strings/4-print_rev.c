@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_rev - prints a string in reversed order
- * @$: a pointer to an int that will be changed
- *
- * Return: void which means our answer is correct
+ * print_rev - prints a string, in reversed, followed by a new line.
+ * @s: input string.
+ * Return: no return.
  */
+
 void print_rev(char *s)
 {
 	int count = 0;

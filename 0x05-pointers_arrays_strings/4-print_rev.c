@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void print_rev(char *s)
+void print_rev(char *s);
 {
 	int i = 0;
 
@@ -15,9 +15,9 @@ void print_rev(char *s)
 
 	while (i--)
 	{
-		_putschar(s[i]);
+		_putchar(s[i]);
 	}
 
-	_putschar('\n');
+	_putchar('\n');
 
 }

@@ -16,7 +16,7 @@ if (len % 2 == 0)
 l = *(str + len);
 
 _putchar(l);
-}	
+}
 }
 _putchar('\n');
 }

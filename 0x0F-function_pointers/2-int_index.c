@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "function_pointers.h"
 
-/**
+/*
  * int_index - searches for an integer.
  * @array: Name passed
  * @size: Number of iterations
  * @cmp: Points to a function
  * Return: Returns nothing
-**/
+ */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
